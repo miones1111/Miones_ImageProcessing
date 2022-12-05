@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miones_ImageProcessing", "Miones_ImageProcessing\Miones_ImageProcessing.csproj", "{52DDD799-09A5-4D09-AD5D-89B7801F3927}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52DDD799-09A5-4D09-AD5D-89B7801F3927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52DDD799-09A5-4D09-AD5D-89B7801F3927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52DDD799-09A5-4D09-AD5D-89B7801F3927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52DDD799-09A5-4D09-AD5D-89B7801F3927}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FC07E52-E3C2-4BBA-83A6-796D8157744F}
+	EndGlobalSection
+EndGlobal

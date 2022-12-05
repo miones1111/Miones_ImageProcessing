@@ -1,0 +1,11 @@
+C:\Users\my pc\Dropbox\PC\Downloads\Miones_ImageProcessing\Miones_ImageProcessing\bin\Debug\Miones_ImageProcessing.exe.config
+C:\Users\my pc\Dropbox\PC\Downloads\Miones_ImageProcessing\Miones_ImageProcessing\bin\Debug\Miones_ImageProcessing.exe
+C:\Users\my pc\Dropbox\PC\Downloads\Miones_ImageProcessing\Miones_ImageProcessing\bin\Debug\Miones_ImageProcessing.pdb
+C:\Users\my pc\Dropbox\PC\Downloads\Miones_ImageProcessing\Miones_ImageProcessing\obj\Debug\Miones_ImageProcessing.csproj.AssemblyReference.cache
+C:\Users\my pc\Dropbox\PC\Downloads\Miones_ImageProcessing\Miones_ImageProcessing\obj\Debug\Miones_ImageProcessing.csproj.SuggestedBindingRedirects.cache
+C:\Users\my pc\Dropbox\PC\Downloads\Miones_ImageProcessing\Miones_ImageProcessing\obj\Debug\Miones_ImageProcessing.Form1.resources
+C:\Users\my pc\Dropbox\PC\Downloads\Miones_ImageProcessing\Miones_ImageProcessing\obj\Debug\Miones_ImageProcessing.Properties.Resources.resources
+C:\Users\my pc\Dropbox\PC\Downloads\Miones_ImageProcessing\Miones_ImageProcessing\obj\Debug\Miones_ImageProcessing.csproj.GenerateResource.cache
+C:\Users\my pc\Dropbox\PC\Downloads\Miones_ImageProcessing\Miones_ImageProcessing\obj\Debug\Miones_ImageProcessing.csproj.CoreCompileInputs.cache
+C:\Users\my pc\Dropbox\PC\Downloads\Miones_ImageProcessing\Miones_ImageProcessing\obj\Debug\Miones_ImageProcessing.exe
+C:\Users\my pc\Dropbox\PC\Downloads\Miones_ImageProcessing\Miones_ImageProcessing\obj\Debug\Miones_ImageProcessing.pdb
