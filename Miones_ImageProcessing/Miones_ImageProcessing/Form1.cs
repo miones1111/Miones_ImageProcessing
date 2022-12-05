@@ -13,7 +13,7 @@ namespace Miones_ImageProcessing
     public partial class Form1 : Form
     {
         Bitmap loaded, processed;
-        
+        Bitmap imageB, imageA, colorgreen;
         public Form1()
         {
             InitializeComponent();
@@ -94,6 +94,53 @@ namespace Miones_ImageProcessing
         private void copyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             pictureBox2.Image = loaded;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            openFileDialog2.ShowDialog();
+        }
+
+        private void openFileDialog2_FileOk(object sender, CancelEventArgs e)
+        {
+            imageB = new Bitmap(openFileDialog2.FileName);
+            pictureBox1.Image = imageB;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            openFileDialog3.ShowDialog();
+        }
+
+        private void openFileDialog3_FileOk(object sender, CancelEventArgs e)
+        {
+            imageA = new Bitmap(openFileDialog3.FileName);
+            pictureBox2.Image = imageA;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Bitmap resultImage = new Bitmap(imageA.Width, imageA.Height);
+
+            Color mygreen = Color.FromArgb(0, 218, 108);
+            int greygreen = (mygreen.R + mygreen.G + mygreen.B) / 3;
+            int threshold = 5;
+
+            for (int x = 0; x < imageB.Width; x++)
+            {
+                for (int y = 0; y < imageB.Height; y++)
+                {
+                    Color pixel = imageB.GetPixel(x, y);
+                    Color backpixel = imageA.GetPixel(x, y);
+                    int grey = (pixel.R + pixel.G + pixel.B) / 3;
+                    int subtractValue = Math.Abs(grey - greygreen);
+                    if (subtractValue < threshold)
+                        resultImage.SetPixel(x, y, backpixel);
+                    else
+                        resultImage.SetPixel(x, y, pixel);
+                }
+            }
+            pictureBox3.Image = resultImage;
         }
 
         //Histogram
